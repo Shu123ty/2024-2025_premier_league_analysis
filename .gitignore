@@ -1,0 +1,25 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Environment secrets
+.env
+
+# Local data files
+data/raw/*
+data/processed/*
+
+# Generated outputs
+outputs/figures/*
+outputs/tables/*
+
+# OS-generated files
+.DS_Store
+Thumbs.db
